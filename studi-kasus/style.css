@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: sandybrown;
+    padding: 30px 0;
+}
+
+main {
+    margin: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    width: 70%;
+    background-color: hotpink;
+}
+
+section form {
+    margin: 30px;
+}
+aside {
+    width: 30%;
+    background-color: orchid;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+aside img {
+    margin: 7px auto;
+    width: 150px;
+}
+
+input {
+    width: 25px;
+}

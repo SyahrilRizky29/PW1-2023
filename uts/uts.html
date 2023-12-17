@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="style.css">
+    <h3>Registrasi Kendaraan Anda</h3>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+          <label for="status">Status</label>
+          <input type="radio" id="Mahasiswa" name="crush" value="Mahasiswa">
+          <label for="Mahasiswa">Mahasiswa</label>
+          <input type="radio" id="Dosen" name="crush" value="Mahasiswa">
+          <label for="Dosen">Dosen</label><br>
+          
+          <label for="NIM/NIDN">NIM/NIDN </label>
+          <input type="text" id="NIM/NIDN" name="NIM/NIDN"><br>
+          <label for="FL">Nama Lengkap:</label>
+          <input type="text" id="FL" name="FL"><br>
+          <label for="prodi">Prodi: </label>
+
+          <select id="prodi">
+          <option value="TI">Teknik Informatika</option>
+          <option value="SI">Sistem Informasi</option>
+          <option value="BD">Bisnis Dgital</option>
+          <option value="prodi" selected> pilih prodi </option>
+          </select><br>
+
+          <label for="status">Status</label>
+
+          <input type="radio" id="Motor" name="crush" value="Motor">
+          <label for="Motor">Motor</label>
+          <input type="radio" id="Mobil" name="crush" value="Mobil">
+          <label for="Mobil">Mobil</label><br> 
+
+          <label for="NPL">NoPol </label>
+          <input type="text" id="NPL" name="NPL"><br>
+
+          <label for="Merk">Merk </label>
+          <input type="text" id="Merk" name="Merk"><br>
+
+          <label for="UpSTNK">Upload STNK</label>
+          <input type="text" id="UpSTNK" name="UpSTNK">
+          <input type="submit" value="Browse">
+          <input type="submit" value="Daftar"> <br>
+        </fieldset>
+      </form>
+</body>
+</html>

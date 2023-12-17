@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img.jpg");
+    line-height: 1.6;
+    margin: 50px;
+    padding: 0;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+fieldset {
+    background-color: purple;   
+    margin: auto;
+    width: 25%;
+    color: white;
+    padding-left: 5px;
+}
