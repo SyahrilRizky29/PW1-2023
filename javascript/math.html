@@ -7,14 +7,16 @@
 </head>
 <body>
 
-    <div>
+    <form>
         <h2>Hitung Luas dan Keliling Lingkaran</h2>
         <label for="jariJari">Masukkan jari-jari lingkaran :</label>
-        <input type="number" id="jariJari" placeholder="Masukkan jari-jari" onchange="hitung()">
+        <input type="number" id="jariJari" onchange="hitung()" placeholder="Masukkan jari-jari">
+    </form>
 
-        <p id="hasilLuas"></p>
-        <p id="hasilKeliling"></p>
-    </div>
+    <p id="hasilLuas"></p>
+    <p id="hasilKeliling"></p>
+
+
 
     <script>
         function hitung() {
